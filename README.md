@@ -3,7 +3,7 @@
 ## Introduction
 Grammar-based fuzzing is a commonly used method to test programs that consume structured inputs, particularly input parsers.
 
-# Objectives
+## Objectives
 A grammar-based fuzzer to generate structured inputs for testing.
 Explore various grammar structures to hit or exceed a coverage threshold.
 
@@ -25,7 +25,7 @@ It should be called using the following command:
 python grammar_fuzzer.py <python_program> <grammar_file> <num_strings>
 The grammar file should define the structure of the inputs using a specified syntax.
 
-# Output Specifications
+## Output Specifications
 The program generates structured inputs based on the grammar specifications provided and write them to an output .in file with the same name as the program itself.
 The output file contains the specified number of strings each on a new line, where each string represents a test input. 
 The generated inputs cover various paths and options within the grammar, aiming to hit or exceed the coverage threshold defined for the target program.
